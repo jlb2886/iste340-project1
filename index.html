@@ -51,19 +51,55 @@
       <div class = "wrapper">
         <header>
           <div class = "hero-content">
-            <h1>
-              Question 1: Warm or Cold Weather?
-            </h1>
-            <p>
-              Find the right place to travel to depending on your wants and needs with this simple form.
-            </p>
+            <form action="">
+
+              <label for="name">Name</label><br>
+              <input type="text" id="name" name="name">
+
+              <div class="options" id="options">
+<!--                <label for="Main">Warm weather or cold?</label><select name="Main" id="Main">-->
+<!--                  <option value="Warm">Warm</option>-->
+<!--                  <option value="Cold">Cold</option>-->
+<!--                </select>-->
+<!--                <label for="Warm">Beach or inland?</label><select name="Warm" id="Warm">-->
+<!--                  <option value="Beach">Beach</option>-->
+<!--                  <option value="Inland">Inland</option>-->
+<!--                </select>-->
+<!--                <label for="Cold">Snowy or chilly?</label>-->
+              </div>
+
+              <div id="result"></div>
+
+              <input type="button" value="Submit" onclick="submitChoices()">
+              <input type="button" value="Reset" onclick="resetChoices()">
+            </form>
           </div>
         </header>
       </div>
     </div>
     <!-- End of CONTENT -->
 
+
+
+    <!-- LEADERBOARD -->
+    <div id="leaders">
+
+    </div>
+<!--    <div class="header-container">-->
+<!--      <div class = "wrapper">-->
+<!--        <header>-->
+<!--          <div class = "hero-content">-->
+<!--            <h1>Jules</h1>-->
+<!--            Results-->
+<!--          </div>-->
+<!--        </header>-->
+<!--      </div>-->
+<!--    </div>-->
+
+    <!-- End of LEADERBOARD -->
+
   <!-- MY JAVASCRIPT FILE -->
+    <script src="js/ChoiceData.js"></script>
   <script src="js/myScript.js"></script>
 </body>
 </html>
