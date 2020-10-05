@@ -21,4 +21,5 @@ stored in a *.js file.
 
 Extra Credit
 
-Displays a leadership board to reveal the names entered and their results.
+• Displays a leadership board to reveal the names entered and their results.
+• Responsive

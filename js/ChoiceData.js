@@ -1,3 +1,4 @@
+// Julianna Baker ISTE 340 Project 1
 const selectInfo = {
   "choices" : [
     {

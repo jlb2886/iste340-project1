@@ -1,3 +1,5 @@
+// Julianna Baker ISTE 340 Project 1
+
 let choices = selectInfo.choices
 let firstChoice = choices[0]
 let result = ''
